@@ -1,0 +1,11 @@
+name: terraform-plan-eval
+on:
+  pull_request:
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Terraform (EVAL)
+        run: |
+          echo "EVAL: plan-only pipeline placeholder"
