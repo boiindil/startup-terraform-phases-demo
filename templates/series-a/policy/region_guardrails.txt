@@ -1,6 +1,0 @@
-EVAL guardrails:
-- allowlist regions (example)
-- denylist can be added in licensed version
-Allowed:
-- eu-central-1
-- eu-west-1
